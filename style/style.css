@@ -1,0 +1,100 @@
+/**/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.site-header {
+    background: #f9f9f9;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+	-webkit-transition: background 0.4s ease-in-out;
+	-moz-transition: background 0.4s ease-in-out;
+	-ms-transition: background 0.4s ease-in-out;
+	transition: background 0.4s ease-in-out;
+}
+.scroll-header .site-header {
+    background: #f9f9f9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}    
+h1.site-logo {
+    color: #333;
+	font-family: 'Major Mono Display', monospace;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.site-mainMenu-wrapper {
+    padding: 8px 0;
+}
+.site-mainMenu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.site-mainMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+.site-mainMenu > ul li > a {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.site-mainMenu > ul li > a:hover {
+	color: #000;
+    text-decoration: none;
+}
+.site-mainMenu > ul > li {
+    float: left;
+    width: auto;
+    padding: 0 15px;
+    margin: 0 5px;
+}
+.site-mainMenu > ul > li > a {
+	position: relative;
+	overflow: hidden;
+    padding: 10px 0;
+}
+.site-mainMenu > ul > li > a:after {
+	content: "";
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	width: 0;
+	height: 2px;
+	-webkit-transition: width 0.4s ease-in-out;
+	-moz-transition: width 0.4s ease-in-out;
+	-ms-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+.site-mainMenu > ul > li > a:hover:after {
+	width: 100%;
+}
+
+.site-banner {
+	min-height: 500px;
+    background-color: #FFF700;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}

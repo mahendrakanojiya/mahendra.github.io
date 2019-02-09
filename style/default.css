@@ -1,0 +1,89 @@
+/*	Styling start here in default.css	*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font-family: arial, sans-serif;
+	font-family: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+
+
+.mk-container-wrapper {
+	padding: 10px 0;
+}
+.mk-container {
+	width: 100%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mk-row {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.mk-row:before,
+.mk-row:after {
+	content: "";
+	display: table;
+}
+.mk-row:after {
+	clear: both;
+}
+[class*="mk-col"],
+[class*="mk-sm"],
+[class*="mk-lg"],
+[class*="mk-xs"] {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mk-sm-col1 {
+	width: 8.33333333333%;
+}
+.mk-sm-col2 {
+	width: 16.6666666667%;
+}
+.mk-col,
+.mk-sm-col3 {
+	width: 25%;
+}
+.mk-sm-col4 {
+	width: 33.33%;
+}
+.mk-sm-col5 {
+	width: 41.6666666667%;
+}
+.mk-sm-col6 {
+	width: 50%;
+}
+.mk-sm-col7 {
+	width: 58.3333333333%;
+}
+.mk-sm-col8 {
+	width: 66.6666666666%;
+}
+.mk-sm-col9 {
+	width: 75%;
+}
+.mk-sm-col10 {
+	width: 83.3333333333%;
+}
+.mk-sm-col11 {
+	width: 91.6666666666%;
+}
+.mk-sm-col12 {
+	width: 91.6666666666%;
+}
